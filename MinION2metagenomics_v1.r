@@ -1,6 +1,15 @@
 # MinION2metagenomics
+# A script to extract from a MinION (Oxford Nanopore Technologies) output file a list of microbial species with the corresponding number of reads.
 # Version 1.0
 # 20-11-2023
+# Filippo Geuna
+# Department of Agricultural and Environmental Sciences (DISAA)
+# University of Milano
+# Via Celoria, 2
+# I-20133 Milano
+# Italy
+# E-mail: filippo.geuna(at)unimi.it
+ 
 
 # Install and load the "dplyr" package:
 if (!require("dplyr")) {
