@@ -24,7 +24,7 @@ setwd("/path/to/your/files")
 
 # Import your file:
 # ATTENTION: check the delimiting character of your input file!!
-ONT_Results_16S <- read.delim("SOMMELIER_2_16s_barcode.csv", sep = ",", header=TRUE, row.names=NULL)
+ONT_Results_16S <- read.delim("your_file.csv", sep = ",", header=TRUE, row.names=NULL)
 View(ONT_Results_16S)
 
 
