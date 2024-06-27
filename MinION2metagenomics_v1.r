@@ -345,5 +345,13 @@ for (i in 1:(length(ont2illumina$species))) {
 ont2illumina$sample24 <- species_number 
 
 
+# Export dataframe 'ont2illumina' as CSV file:
+write.csv(ont2illumina, "ont2illumina.csv")
+
+
+
+
+
+
 
 
